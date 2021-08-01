@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html>
+       <head>
+	         <title>Home</title>
+			 <link rel="stylesheet" href="asset/css/960.css">
+			 <link rel="stylesheet" href="asset/css/style.css">
+			 
+	   </head>
+	   <body>
+	           
+			   <div class="container_12 box">
+			       
+				      <!--- Header start----->
+					       <!--- Logo and Company name start
+						   
+						      logo = 4-columns = grid_4
+							  company name= 8-columns=grid_8
+							  --->
+							  
+							<div class="grid_2 logo" >
+							    <img src="asset/photo/TATA.png" Width="135px" height="126.59px"></img>
+							</div>
+							<div class="grid_10 cname">
+							    <h1 align="center">TATA MOTORS</h1>
+								<h3 align="Center" >Connecting Aspiratons</h3>
+							</div>
+							<div class="clear">
+							</div>
+						   <!--- Logo and Company name End--->
+					   <!---- Header End------>
+					   
+						<!--Menu Start--->	
+							<div class='grid_3 menu'>
+								<a id="a" href='index.html'><b>Home</b></a>
+							
+							</div>
+							<div class='grid_3 menu'>
+								<a id="a" href='About.html'><b>About Us</b></a>
+							
+							</div>
+							<div class='grid_3 menu'>
+								<a id="a" href='Products.html'><b>Products</b></a>
+							
+							</div>
+							<div class='grid_3 menu '>
+								<a id="a" href='Contact.html'><b>Contact Us</b></a>
+							
+							</div>
+							
+							<div class="clear">
+							</div>
+							<!---Menu end---->
+							
+							<!--Banner start-->
+
+					<div class="container_12 box">   
+							
+							<div class='clear'>
+							</div>	
+							<!--Banner End-->
+							<!-- slide banner start-->
+					<div class="container_12 box"> 								
+
+							<!--div class="slideshow-container"-->
+
+							<div class="mySlides fade">
+							  <div class="numbertext">1 / 3</div>
+							  <img src="asset/photo/family.jpg" style="width:100%">
+							  
+							</div>
+					</div>
+					<div class='clear'>
+					</div>
+					<div class="container_12 box">
+							<div class="mySlides fade">
+							  <div class="numbertext">2 / 3</div>
+							  <img src="asset/photo/safaribanner.jpg" style="width:100%">
+							  <div class="text">Caption Two</div>
+							</div>
+					</div>
+					
+					<div class='clear'>
+					</div>
+					<div class="container_12 box">
+							<div class="mySlides fade">
+							  <div class="numbertext">3 / 3</div>
+							  <img src="asset/photo/nexon banner.jpg" style="width:100%">
+							  <div class="text">Caption Three</div>
+							</div>
+					</div>
+					<div class='clear'>
+					</div>
+					<div class="container_12 box">
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					</div>
+					<div class='clear'>
+					</div>
+
+					
+							<br>
+
+							<div style="text-align:center">
+							  <span class="dot" onclick="currentSlide(1)"></span> 
+							  <span class="dot" onclick="currentSlide(2)"></span> 
+							  <span class="dot" onclick="currentSlide(3)"></span> 
+							</div>
+
+							<script>
+							var slideIndex = 1;
+							showSlides(slideIndex);
+
+							function plusSlides(n) {
+							  showSlides(slideIndex += n);
+							}
+
+							function currentSlide(n) {
+							  showSlides(slideIndex = n);
+							}
+
+							function showSlides(n) {
+							  var i;
+							  var slides = document.getElementsByClassName("mySlides");
+							  var dots = document.getElementsByClassName("dot");
+							  if (n > slides.length) {slideIndex = 1}    
+							  if (n < 1) {slideIndex = slides.length}
+							  for (i = 0; i < slides.length; i++) {
+								  slides[i].style.display = "none";  
+							  }
+							  for (i = 0; i < dots.length; i++) {
+								  dots[i].className = dots[i].className.replace(" active", "");
+							  }
+							  slides[slideIndex-1].style.display = "block";  
+							  dots[slideIndex-1].className += " active";
+							}
+							</script>
+					</div>		
+							<!-- slide banner end-->
+							<h1 class="font">DARK RANGE</h1>
+							<div class="container_12 box">
+							<iframe width="960" height="415" src="https://www.youtube.com/embed/OrUkdta7pmo" 
+							title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+							clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+							</iframe>
+							</div>
+							
+							<!--Recent highlights start-->
+							<div class="grid_5 picture " >
+								<a href="https://www.cardekho.com/tata/nexon" target="_blak">
+									<img  id="img" src="asset/photo/nexon.jpg" width="300" height="200"></img>
+								</a>
+							</div>
+							<div class="grid_7 Info " height="165">
+								<h1>TATA NEXON Specifications</h1>
+								<p class="indexp">The Tata Nexon has 1 Diesel Engine and 1 Petrol Engine on offer. 
+								The Diesel engine is <span style="color:rgb(255,0,0)">1497 cc</SPAN> while the Petrol engine is <span style="color:rgb(255,0,0)">1199 cc</span> . 
+								It is available with the Manual & Automatic transmission. Depending
+								upon the variant and fuel type the Nexon has a mileage of . The 
+								Nexon is a 5 seater and has length of 3993mm, width of 1811mm and 
+								a wheelbase of 2498mm.</P>
+							</div>
+							<div class="clear">
+							</div>
+							
+							
+							<div class="grid_5 picture " >
+								<a href="https://www.cardekho.com/tata/tata-tiago-specifications.htm" target="_blak">
+									<img id="img" src="asset/photo/tataTiago2.jpg" width="300" height="200" ></img>
+								</a>
+							</div>
+							<div class="grid_7 Info" height="165">
+								<h1>TATA TIAGO Specifications</h1>
+								<p class="indexp">Tata Tiago is currently available in Petrol engine. The <span style="color:rgb(255,0,0)">1199 cc</span> Petrol 
+								engine generates a power of 84.48bhp@6000rpm and a torque of 113Nm@3300rpm. 
+								Tata Tiago is available in both Manual & Automatic transmission. Tata Tiago 
+								has a boot space of 242 Liters litres and ground clearance of 170 mm. The 
+								kerb weight of Tiago is 935-982 Kg. In configurations, Tata Tiago has a 
+								dimensions of 3765 mm in length, 1677 mm in width and 1535 mm^3 mm in height.
+								
+								</P>
+							</div>
+							<div class="clear">
+							</div>
+							<div class="grid_5 picture " >
+								<a href="https://www.cardekho.com/carmodels/Tata/Tata_New_Safari" target="_blak">
+									<img id="img" src="asset/photo/safari_new.jpg" width="300" height="200"></img>
+								</a>
+							</div>
+							<div class="grid_7 Info" height="165">
+								<h1>TATA SAFARI 2021 Specifications</h1>
+								<p class="indexp">The Safari will be offered with a single engine – a <span style="color:red">2.0-litre</span>, four-cylinder
+								turbocharged ‘Kryotec’ diesel unit developing 168bhp of maximum power at 3750rpm 
+								and 350Nm of peak torque between 1750-2500rpm. This can be had with either a 
+								six-speed manual transmission or a six-speed automatic transmission. ARAI-certified
+								mileage for the Safari have not been revealed as yet. We were expected Tata to 
+								debut a new petrol engine with the Safari, but that seems to have postponed to an 
+								unknown date.
+								
+								</P>
+							</div>
+							<div class="clear">
+							</div>
+							<br></br>
+							<!--Recent highlights start-->
+							<!--youtube videos-->
+							<div class="container_12 box">
+								<iframe width="930"	 height="400" src="https://www.youtube.com/embed/O8fVsTeEe-c" 
+								title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+								clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+								</iframe>
+							</div>
+					<!--div class="container_12 whatsapp" >
+					<a href="https://api.whatsapp.com/send/?phone=918857971696&text=Hi Manish, I saw your website and following are my requirement:" target="_blank">
+						<img src="asset/photo/whatsapp.jpg" width="50" height="50" />
+					</a>
+					</div-->
+					<!--side bar start-->
+					<!--Side bar for the contact like FB,Insta,Gmail,Whatsapp any many more-->
+				
+					<div id="at4-share"	class="at4-share atss atss-left addthis-animated slideInLeft">
+					<a href="https://api.whatsapp.com/send/?phone=918857971696&text=Hi Manish, I saw your website and following are my requirement:" target="_blank">
+							<img src="asset/photo/whatsapp.jpg" width="50" height="50" />
+					</a>
+					</div>
+					
+					<div id="at3-share"	class="at4-share atss atss-left addthis-animated slideInLeft">
+					<a href="https://www.facebook.com/manish.khalse" target="_blank">
+							<img src="asset/photo/fb1.png" width="50" height="50" />
+					</a>
+					</div>
+					
+					<div id="at2-share"	class="at4-share atss atss-left addthis-animated slideInLeft">
+					<a href="https://www.instagram.com/m_s_khalse09/" target="_blank">
+							<img src="asset/photo/insta.jpg" width="50" height="50" />
+					</a>
+					</div>
+					
+					<div id="at1-share"	class="at4-share atss atss-left addthis-animated slideInLeft">
+					<a href="https://in.linkedin.com/in/manish-khalse-0a048217a" target="_blank">
+							<img src="asset/photo/linkedin2.png" width="40" height="40" />
+					</a>
+					</div>
+					
+					<div id="at1-share"	class="at4-share atss atss-left addthis-animated slideInLeft">
+					<a href="https://in.linkedin.com/in/manish-khalse-0a048217a" target="_blank">
+							<img src="asset/photo/linkedin2.png" width="40" height="40" />
+					</a>
+					</div>
+					<!--side bar End-->
+							<!---footer section start---->
+					<div class="container_12 box">	 
+						 <div class='grid_12 footer'>
+						 &copy;<br>
+						 Designed and Developed<br>
+						 By<br> 
+						 MANISH S. KHALSE<br><br>
+						
+					</div>	 
+						 
+						 
+						 
+			              <!---footer section end---->
+			   
+			   </div>
+			   
+	    
+	   </body>
+   
+</html>
+
